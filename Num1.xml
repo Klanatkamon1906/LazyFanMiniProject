@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preset version="3">
+  <name></name>
+  <prepare>
+    <convType>2</convType>
+    <monoType>0</monoType>
+    <edge>150</edge>
+    <scanMain>0</scanMain>
+    <scanSub>0</scanSub>
+    <inverse>0</inverse>
+    <bandScanning>0</bandScanning>
+    <bandWidth>1</bandWidth>
+    <useCustomScript>0</useCustomScript>
+    <customScript><![CDATA[]]></customScript>
+  </prepare>
+  <matrix>
+    <maskUsed>00ffffff</maskUsed>
+    <maskAnd>ffffffff</maskAnd>
+    <maskOr>00000000</maskOr>
+    <maskFill>ffffffff</maskFill>
+    <operations count="0"/>
+  </matrix>
+  <reordering>
+    <operations count="0"/>
+  </reordering>
+  <image>
+    <bytesOrder>0</bytesOrder>
+    <blockSize>0</blockSize>
+    <blockDefaultOnes>0</blockDefaultOnes>
+    <splitToRows>1</splitToRows>
+    <compressionRle>0</compressionRle>
+    <compressionRleMinLength>2</compressionRleMinLength>
+    <blockPrefix><![CDATA[0x]]></blockPrefix>
+    <blockSuffix><![CDATA[]]></blockSuffix>
+    <blockDelimiter><![CDATA[, ]]></blockDelimiter>
+  </image>
+  <font>
+    <bom>0</bom>
+    <sortOrder>1</sortOrder>
+    <codec>ASMO-708</codec>
+  </font>
+  <templates>
+    <images>:/templates/image_convert</images>
+    <fonts>:/templates/font_convert</fonts>
+  </templates>
+</preset>
